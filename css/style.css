@@ -1,0 +1,87 @@
+/* Color variables */
+:root {
+    --white-color: #fff;
+    --bg-color: #fff;
+    --gray-color: #ccc;
+  }
+  
+  /* Changing background color */
+  body {
+    background: var(--bg-color) !important;
+  }
+  
+  /* Changing link color */
+  .nav-item .nav-link {
+    color: red;
+  }
+ /*divider css start*/
+ .custom-shape-divider-bottom-1704693891 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704693891 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1704693891 .shape-fill {
+  fill: #FFFAFA;
+}
+/*divider css end*/
+  .hero{
+    height: 97.8vh;
+  }
+/*background image set*/
+/*#skills{
+  background-image: url("../image/laptop-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+#skills i {
+  height: 100px;
+  width: 100px;
+}
+
+
+.progress{
+  width: 90%;
+  height: 30px;
+  margin-top: 3rem;
+}
+
+/* horizontal line css*/
+/* .section-title-hr {
+  width: 175px;
+  height: 1px;
+  border: 1px solid rgb(255, 111, 0);
+  background-color: rgb(255, 111, 0);
+  display: block;
+} */
+.white-hr {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
+
+
+
+/* @media screen and (max-width: 990px) {
+  #skills .card {
+    width: calc(100% / 2 - 10px) !important;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #skills .card,
+  #portfolio .card-wrapper {
+    width: 100% !important;
+  }
+} */
